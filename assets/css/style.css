@@ -378,6 +378,10 @@ main {
   z-index: -1;
 }
 
+.giph {
+  height: 30%;
+  width: 30%;
+}
 .info_more-btn:hover,
 .info_more-btn:focus { background: var(--bg-gradient-yellow-1); }
 
@@ -447,7 +451,17 @@ main {
 .social-item .social-link:hover { color: var(--light-gray); }
 
 
+.logo-facebook:hover {
+  color: #4267B2;
+}
 
+.logo-twitter:hover {
+  color: 	#1DA1F2;
+}
+
+.logo-instagram:hover {
+  color: #962fbf;
+}
 
 
 /*-----------------------------------*\
