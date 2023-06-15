@@ -591,9 +591,9 @@
               <button data-filter-btn>Systems Programming</button>
             </li>
 
-            <!-- <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li> -->
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
 
             <li class="filter-item">
               <button data-filter-btn>Web development</button>
@@ -624,7 +624,7 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>Machine Learning</button>
               </li>
 
               <li class="select-item">
@@ -686,6 +686,22 @@
             <br>
           <button class="close-modal3 close-modal">Close</button>
         </dialog>
+        
+        <dialog class="modal4 modal">
+          <h2>FlickFinder</h2>
+          <div class="modal-content">
+            <p>• Developed a web application to implement a collaborative filtering-based recommender system by creating a user-friendly
+              interface for the web app that allowed users to input a movie preference and receive personalized recommendations.
+            </p>
+            <p>• Used singular value decomposition to factorize the movie-user ratings matrix and cosine similarity to recommend movies.</p>
+          </div>
+          <br>
+            <div style="display: flex; justify-content: center;">
+              <button onclick="window.open('https://github.com/vgandhi13/FlickFinder---Movie-Recommender-System', '_blank')" class="github" style="display: inline-block;">View on <img src="./assets/images/github2.png" alt="" style="display: inline-block; vertical-align: middle;"></button>
+            </div> 
+            <br>
+          <button class="close-modal4 close-modal">Close</button>
+        </dialog>
 
           <ul class="project-list">
             
@@ -725,6 +741,19 @@
                 </figure>
                 <h3 class="project-title">Binary Buddy Allocator</h3>
                 <p class="project-category">Systems Programming</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="machine learning">
+              <a href="javascript:void(0)" class="open-modal4">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/FlickFinder.png" alt="Movie Recommender" loading="lazy">
+                </figure>
+                <h3 class="project-title">FlickFinder - Movie Recommender System</h3>
+                <p class="project-category">Machine Learning</p>
               </a>
             </li>
 

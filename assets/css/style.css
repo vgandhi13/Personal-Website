@@ -1901,7 +1901,21 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   body::-webkit-scrollbar-button { height: 60px; }
 
+  .modal::-webkit-scrollbar { width: 20px; }
 
+  .modal::-webkit-scrollbar-track { background: var(--smoky-black); }
+
+  .modal::-webkit-scrollbar-thumb {
+    border: 5px solid var(--smoky-black);
+    background: hsla(0, 0%, 100%, 0.1);
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 0 hsla(0, 0%, 100%, 0.11),
+                inset -1px -1px 0 hsla(0, 0%, 100%, 0.11);
+  }
+
+  .modal::-webkit-scrollbar-thumb:hover { background: hsla(0, 0%, 100%, 0.15); }
+
+  .modal::-webkit-scrollbar-button { height: 60px; }
 
   /**
    * REUSED STYLE
