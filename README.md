@@ -1,4 +1,1 @@
-
-Hey
-This is my personal website. I am currently working on it. I am using vanilla Javascript, HTML and CSS to create it.
-I have been working on it for quite some time now..
+Hello, this website is a constant work in progress. Hit me up if you have any suggestions!
