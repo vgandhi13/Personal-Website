@@ -744,8 +744,38 @@
           <button class="close-modal4 close-modal">Close</button>
         </dialog>
 
-          <ul class="project-list">
+        <dialog class="modal5 modal">
+          <h2>UMassConnect</h2>
+          <div class="modal-content">
+            <p>•  Developed a full stack CRUD application for prospective use of 9,000+ students, providing a centralized platform for curating 
+              and delivering highly relevant content related to UMass students' academic pursuits, campus events, clubs, and interests
+            </p>
+            <p>• Guaranteed secure communication and access by integrating RESTful APIs authenticating JWT tokens sent on each API call.</p>
             
+          </div>
+          <br>
+            <div style="display: flex; justify-content: center;">
+              <button onclick="window.open('https://github.com/vgandhi13/UMassConnect', '_blank')" class="github" style="display: inline-block;">View on <img src="./assets/images/github2.png" alt="" style="display: inline-block; vertical-align: middle;"></button>
+            </div> 
+            <br>
+          <button class="close-modal5 close-modal">Close</button>
+        </dialog>
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="web development">
+              <a href="javascript:void(0)" class="open-modal5">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/UMassConnect.png" alt="PunchTime" loading="lazy">
+                </figure>
+                <h3 class="project-title">UMassConnect</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+
             <li class="project-item active" data-filter-item data-category="web development">
               <a href="javascript:void(0)" class="open-modal">
                 <figure class="project-img">
@@ -838,18 +868,24 @@
                     <time datetime="2022-02-23">May 2023 - Present</time>
                   </div>
                   <br>
-                  <h3 class="h3 blog-item-title">Cloud Software Engineering Intern</h3>
+                  <h3 class="h3 blog-item-title">Software Engineering Intern</h3>
 
                   <p class="blog-text">
-                    • Automated the identification of idle resources in Adani's Google cloud infrastructure by leveraging Google cloud APIs.
+                    • Automated identification of idle resources in Adani’s Google cloud infrastructure by developing python scripts leveraging
+                      Google cloud APIs, achieving cost reductions of 35%. 
                     <br>
                     <br>
-                    • Utilized MySQL DB to store the responses from the API calls and developed a dashboard to visualize the collected data.                  <br>
+                    • Architected a MySQL DB to store the data retrieved from the API calls.
+                    <br>
+                    <br>
+                    • Spearheaded development of a full stack dashboard using React.js and Django REST framework to visualize and analyze the 
+                    collected data                  
+                    <br>
                     <br>
                     
-                    • Achieved a cost reduction of 35% by identifying and eliminating unused IP addresses, Persistent disks, and disk images.
+                    •  Utilized Axios for frontend API calls and Django token authentication for secure backend API authentication.
                     <br><br>
-                    • Developed scripts using Terraform to provision virtual machines, making deployment 50% faster than manual methods
+                    • Created and deployed MySQL and Django containers on a virtual machine, enabling communication via a Docker network.
                   </p>
 
                 </div>
