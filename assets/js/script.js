@@ -195,6 +195,9 @@ setupModal("modal3", "open-modal3", "close-modal3");
 // Project 4
 setupModal("modal4", "open-modal4", "close-modal4");
 
+// Project 4
+setupModal("modal5", "open-modal5", "close-modal5");
+
 //one mroe time
 //what a waste of time
 //get better man this is not good enough
