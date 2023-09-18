@@ -2154,3 +2154,16 @@ textarea.form-input::-webkit-resizer { display: none; }
   color: aliceblue;
   background-color: hsl(35, 100%, 68%);
 }
+
+
+footer {
+    text-align: center;
+    background-color: rgb(88, 41, 41);
+    padding: 20px; /* Adjust padding as needed */
+  }
+
+  footer blockquote {
+    color: #fff; /* White text color for contrast */
+    font-family: "Arial", sans-serif; /* You can change the font to your preference */
+    font-size: 18px; /* Adjust font size as needed */
+  }
