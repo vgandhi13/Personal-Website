@@ -85,8 +85,9 @@
 
             <div class="contact-info">
               <p class="contact-title">Email</p>
-              <div style="line-height: 2rem;"><a href="mailto:gandhivarun13@gmail.com" class="contact-link">gandhivarun13@gmail.com</a>
-                <a href="mailto:vgandhi@umass.edu" class="contact-link">vgandhi@umass.edu</a></div>
+              <div style="line-height: 2rem;"><a href="mailto:vgandhi@umass.edu" class="contact-link">vgandhi@umass.edu</a>
+                <!-- <a href="mailto:vgandhi@umass.edu" class="contact-link">vgandhi@umass.edu</a> -->
+              </div>
               
             </div>
 
@@ -216,7 +217,7 @@
               </p>
               
               <p class = "AboutText">
-                I’m a Computer Science student at UMass Amherst with a strong passion for technology and innovation. 💻🚀 I’ve gained valuable experience across various projects, including developing an employee time tracking platform for Duck Creek Technologies using the MERN stack <br/> 
+                I’m a Bay State Fellow at UMass Amherst Manning College of Information and Computer Sciences pursuing a Master's of Science in Computer Science on a full 100% scholarship. <br/> 
               </p>
             </div>
             <!-- I will be interning at Adani this summer as a Software Engineering intern and working in XYZ lab as a Research Assistant. -->
@@ -225,9 +226,9 @@
           
 
           <p class = "AboutText">
-            This summer I interned at DXFactor, where I built a comprehensive authentication system for a SaaS fitness app using Django Rest Framework, along with optimizing performance through asynchronous operations. Additionally, I automated ETL pipelines using AWS Lambda to streamline data transfers.
+            In Summer 2024, I interned at DXFactor, where I built a comprehensive authentication system for a SaaS fitness app using Django Rest Framework, along with optimizing performance through asynchronous operations. Additionally, I automated ETL pipelines using AWS Lambda to streamline data transfers.
             <br/><br/>
-            Last summer I interned at Adani, where I focused on writing Python automation scripts to identify idle resources in their Google Cloud infrastructure. Moreover, I created a centralized full-stack dashboard using Django Rest and React to visualize the data for the cloud fin-ops team. ⚙️🔍📊
+            In summer 2023, I interned at Adani, where I focused on writing Python automation scripts to identify idle resources in their Google Cloud infrastructure. Moreover, I created a centralized full-stack dashboard using Django Rest and React to visualize the data for the cloud fin-ops team. ⚙️🔍📊
           </p>
         </section>
 
@@ -246,11 +247,17 @@
             <li class="timeline-item">
 
               <h4 class="h4 timeline-item-title">Manning College of Information and Computer Sciences @ UMass</h4>
+              <span>2025 — Present</span>
+
+              <p class="timeline-text">
+                MS in Computer Science
+              </p>
+
 
               <span>2021 — 2024</span>
 
               <p class="timeline-text">
-                Computer Science, Mathematics, Business
+                BS in Computer Science, Mathematics
               </p>
 
             </li>
@@ -585,13 +592,16 @@
             <!-- <object class="pdf-object" data="https://docs.google.com/gview?embedded=true&url=https://vgandhi13.github.io/Personal-Website/assets/images/Varun-Resume.pdf">
               <p>Alternative text - include a link <a href="./assets/images/Varun-Resume.pdf">to the PDF!</a></p>
             </object> -->
-            <object class="pdf-object" data="./assets/images/Varun_Resume.pdf">
+            <!-- <object class="pdf-object" data="./assets/images/Varun_Resume.pdf">
               <div class="image-container">
                 <img class="img-object" src="./assets/images/Varun_Resume.pdf" alt="Resume">
                 <button class="getPDF">View PDF</button>
               </div>
               
-            </object>
+            </object> -->
+            <p style="font-weight: bold; color: hsl(45, 100%, 72%); font-size: 20px;">
+              To request the resume, please email at <a href="mailto:xxx@email.edu" style="color: hsl(45, 100%, 72%); text-decoration: underline;">vgandhi@umass.edu</a>
+            </p>
             <!-- <img  class="pdf-object" src="./assets/images/Varun_Resume (5)_page-0001.jpg" alt="Resume image"> -->
           </div>
           
@@ -670,7 +680,7 @@
 
           </div>
           
-          <dialog class="modal">
+          <dialog class="modal" id="punchTime-dialog">
             <h2>Employee Time Tracking Web App</h2>
             <div class = "modal-content">
               <p>• Built an employee time tracking management dashboard for Duck Creek Technologies using React, HTML and CSS in a team of 9 developers by constructing methods for large-scale UI components consuming served JSON.
@@ -688,7 +698,7 @@
             <button class="close-modal">Close</button>
         </dialog>
         
-        <dialog class="modal2 modal">
+        <dialog class="modal2 modal" id="simonGame-dialog">
           <h2>Simon Game</h2>
           <div class="modal-content">
           <p>• Created an online single player version of the classic Simon Game
@@ -705,7 +715,7 @@
           <button class="close-modal2 close-modal">Close</button>
         </dialog>
         
-        <dialog class="modal3 modal">
+        <dialog class="modal3 modal" id="binaryBuddy-dialog">
           <h2>Binary Buddy Allocator</h2>
           <div class="modal-content">
             <p>• Created a memory allocator from scratch using C++ and implemented the binary buddy algorithm to allocate and deallocate memory
@@ -722,7 +732,7 @@
           <button class="close-modal3 close-modal">Close</button>
         </dialog>
         
-        <dialog class="modal4 modal">
+        <dialog class="modal4 modal" id="flickFinder-dialog">
           <h2>FlickFinder</h2>
           <div class="modal-content">
             <p>• Developed a web application to implement a collaborative filtering-based recommender system by creating a user-friendly
@@ -738,7 +748,7 @@
           <button class="close-modal4 close-modal">Close</button>
         </dialog>
 
-        <dialog class="modal5 modal">
+        <dialog class="modal5 modal" id="umassConnect-dialog">
           <h2>UMassConnect</h2>
           <div class="modal-content">
             <p>•  Developed a full stack CRUD application for prospective use of 9,000+ students, providing a centralized platform for curating 
